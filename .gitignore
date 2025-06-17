@@ -98,7 +98,6 @@ jspm_packages/
 .tern-port
 
 # Large data files
-processed_medicine_data.json
 *.json.bak
 *.json.backup
 
