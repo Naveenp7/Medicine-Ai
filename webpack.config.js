@@ -1,10 +1,10 @@
 const path = require('path');
 
 module.exports = {
-  entry: './medReact.tsx',
-  output: {
-    path: path.resolve(__dirname, 'public'),
+  entry: './medReact.tsx',  output: {
+    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
+    publicPath: '/',
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js', '.jsx'],
